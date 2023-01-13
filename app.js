@@ -132,9 +132,24 @@ let shoes = {
 
 // Step two: Listen for an event on that element
 
-document.getElementById("button_one").addEventListener('click',function(){
-  console.log("Button One was clicked")
-})
+// function declaration
+function add(){
+  // When we do not explicitly return, undefined is returned by default
+
+  console.log(10 + 10)
+}
+// Function Call or function invocation
+// console.log(add())
+
+
+
+
+document.getElementById('button_one')
+.addEventListener('mouseover',add)
+
+// document.getElementById("button_one").addEventListener('click',function(){
+//   console.log("Button One was clicked")
+// })
 
 
 // Step One: Get the element from the DOM
@@ -149,6 +164,24 @@ document.getElementById('button_two')
 
 // console.log(document.getElementById("button_one"))
 // console.log(document.getElementsByClassName('button'))
+
+
+
+
+
+
+// Step 1: Get the element from the DOM
+// Step 2: Listen for an event on the element
+
+// document.getElementById('textfield')
+// .addEventListener('keypress',function(){
+//   console.log("User is typing")
+// })
+
+
+
+
+
 
 
 

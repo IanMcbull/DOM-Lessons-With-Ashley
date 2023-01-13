@@ -6,3 +6,16 @@
     padding: 10px 40px;
     border: none;
 }
+input{
+    padding: 10px;
+    color: red;
+    font-size: large;
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: teal;
+    margin-bottom: 30px;
+}
